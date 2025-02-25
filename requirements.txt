@@ -1,0 +1,6 @@
+streamlit
+openai
+pinecone
+deep-translator
+python-dotenv
+pymongo
