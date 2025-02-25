@@ -247,7 +247,7 @@ if st.button("Search News"):
             for idx, news in enumerate(results):
                 metadata = news["metadata"]
                 highlighted_title = highlight_keywords(metadata["title"], translated_query)
-                highlighted_content = highlight_keywords(metadata["content"], translated_query)
+                highlighted_content = highlight_keywords(metadata["text"], translated_query)
                 display_date = format_display_date(metadata["date"])
 
                 translation_key = f"translate_{idx}"
